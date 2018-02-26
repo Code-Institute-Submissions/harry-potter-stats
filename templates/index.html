@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Harry Potter Graph</title>
+  <link rel="stylesheet" href="{{ url_for ('static',
+    filename='lib/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{ url_for ('static',
+    filename='lib/css/keen-dashboards.css')}}">
+  <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
+  <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css')}}">
+  <link rel="stylesheet" href="{{url_for ('static', filename='lib/css/introjs.css')}}" />
+</head>
+<body class="application">
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./">How many Harry Potter Characters are...</a>
+      </div>
+    </div>
+  </div>
+    <!-- Outer start -->
+  <div  id="outer" class="container-fluid">
+    <div class="row">
+        <!-- First Block -->
+        <div class="col-sm-12">
+            <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <div class="chart-wrapper">
+              <div class="chart-title" id="chart-title-css">
+                Total Characters
+              </div>
+              <div class="chart-stage" id="pie-stage">
+                <div id="hp-character-total"></div>
+              </div>
+            </div>
+          </div>
+            <div class="col-sm-3">
+            </div>
+        </div>
+      <div class="col-sm-8">
+        <div class="row">
+          <!-- Hogwarts House Block -->
+          <div class="col-sm-12">
+            <div class="chart-wrapper">
+              <div class="chart-title" id="chart-title-css">
+                In which Hogwarts House were they?
+              </div>
+              <div class="chart-stage" id="pie-stage">
+                <div id="house-pie"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Hogwarts House Block End -->
+
+          <!-- Total Characters Block -->
+          <div class="col-sm-4">
+            <div class="chart-wrapper">
+              <div class="chart-title" id="chart-title-css">
+                Character gender
+              </div>
+              <div class="chart-stage">
+                  <div id="gender-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Total Character Block End -->
+
+          <!-- Character Allegiance Block -->
+          <div class="col-sm-4">
+            <div class="chart-wrapper">
+              <div class="chart-title" id="chart-title-css">
+                Is the Character dead or alive?
+              </div>
+              <div class="chart-stage">
+                <div id="dead-alive-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Character Allegiance Block End -->
+          <div class="col-sm-4">
+            <div class="chart-wrapper">
+              <div class="chart-title" id="chart-title-css">
+                Character Allegiance
+              </div>
+              <div class="chart-stage">
+                <div id="character-allegiance"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- First Block End -->
+
+      <!-- Poverty -->
+      <div class="col-sm-4">
+        <div class="chart-wrapper">
+          <div class="chart-title" id="chart-title-css">
+            Is The Character Human?
+          </div>
+          <div class="chart-stage">
+            <div id="is-human-chart"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Poverty -->
+
+      <!-- menu select -->
+      <div class="col-sm-4">
+        <div class="chart-wrapper">
+          <div class="chart-title" id="chart-title-css">
+            Character Bloodline
+          </div>
+          <div class="chart-stage">
+            <div id="blood-line-chart"></div>
+          </div>
+        </div>
+      </div>
+      <!-- menu select -->
+    </div>
+  </div>
+    <!-- Outer End -->
+  <hr>
+  <p class="small text-muted"> Data Dashboard made by Heinrich Hohbach for Stream 2</p>
+  <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/d3.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/dc.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
+  <script src="{{ url_for ('static', filename='js/graph.js')}}"></script>
+  <script src="{{url_for ('static', filename='lib/js/intro.js')}}" type="text/javascript"></script>
+</body>
+</html>

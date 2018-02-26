@@ -1,0 +1,1 @@
+web: gunicorn harry_potter_stats:app

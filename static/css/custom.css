@@ -1,0 +1,57 @@
+.dc-chart g.row text {
+   fill: black;
+   font-size: 12px;
+}
+
+@font-face {
+    font-family: 'parry_hotterregular';
+    src: url('parryhotter-webfont.woff2') format('woff2'),
+         url('parryhotter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar-brand {
+   font-family: 'parry_hotterregular', Arial, sans-serif;
+   font-weight:normal;
+   font-style:normal;
+   font-size:40px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+#outer {
+   margin-top: 40px;
+}
+
+.navbar {
+   background: url(bg_logo.jpg);
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+#chart-title-css {
+   font-family: 'parry_hotterregular', Arial, sans-serif;
+   font-weight:normal;
+   font-style:normal;
+   font-size: 20px;
+   color: #000000;
+   text-align: center;
+}
+
+#hp-character-total {
+   position: relative;
+    font-size: 80px;
+    height: 180px;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#gender-chart {
+    margin: 0 auto;
+}
