@@ -52,6 +52,18 @@
     padding-top: 20px;
 }
 
-#gender-chart {
-    margin: 0 auto;
+body {
+    line-height: normal;
+}
+
+.dc-chart g.axis.x text {
+    font-size: 15px;
+}
+
+.dc-chart g.axis.y text {
+    font-size: 15px;
+}
+
+.dc-chart .pie-slice {
+    font-size: 15px;
 }

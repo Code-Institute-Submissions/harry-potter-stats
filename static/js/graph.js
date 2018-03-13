@@ -61,11 +61,11 @@ function makeGraphs(error, HarryPotterJson) {
 
     //Chart Styling
     HouseChart
-        .width(800)
+        .width(880)
         .height(400)
         .innerRadius(40)
         .transitionDuration(2000)
-        .ordinalColors(['#941B08', '#caa011', '#071A80', '#154C07', '#DCDCDC'])
+        .ordinalColors(['#941B08', '#caa011', '#071A80', '#154C07', '#42423e'])
         .dimension(houseDim)
         .group(numHouse)
         .minAngleForLabel(0);
@@ -79,7 +79,7 @@ function makeGraphs(error, HarryPotterJson) {
         .formatNumber(d3.format(".3s"));
 
     isHumanChart
-        .width(350)
+        .width(440)
         .height(400)
         .dimension(isHumanDim)
         .group(numHuman)
@@ -94,8 +94,8 @@ function makeGraphs(error, HarryPotterJson) {
         .xAxis().ticks(8);
 
     GenderChart
-        .width(250)
-        .height(210)
+        .width(300)
+        .height(223)
         .innerRadius(40)
         .transitionDuration(2000)
         .dimension(genderDim)
@@ -103,8 +103,8 @@ function makeGraphs(error, HarryPotterJson) {
         .minAngleForLabel(0);
 
     deadAliveChart
-        .width(250)
-        .height(210)
+        .width(300)
+        .height(223)
         .innerRadius(40)
         .transitionDuration(2000)
         .dimension(deadAliveDim)
