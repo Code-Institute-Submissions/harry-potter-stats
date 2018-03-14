@@ -1,48 +1,48 @@
 .dc-chart g.row text {
-   fill: black;
-   font-size: 12px;
+    fill: black;
+    font-size: 12px;
 }
 
 @font-face {
     font-family: 'parry_hotterregular';
     src: url('parryhotter-webfont.woff2') format('woff2'),
-         url('parryhotter-webfont.woff') format('woff');
+    url('parryhotter-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 .navbar-brand {
-   font-family: 'parry_hotterregular', Arial, sans-serif;
-   font-weight:normal;
-   font-style:normal;
-   font-size:40px;
-   margin-top: 10px;
-   margin-bottom: 20px;
+    font-family: 'parry_hotterregular', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #outer {
-   margin-top: 40px;
+    margin-top: 40px;
 }
 
 .navbar {
-   background: url(bg_logo.jpg);
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+    background: url(bg_logo.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #chart-title-css {
-   font-family: 'parry_hotterregular', Arial, sans-serif;
-   font-weight:normal;
-   font-style:normal;
-   font-size: 20px;
-   color: #000000;
-   text-align: center;
+    font-family: 'parry_hotterregular', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
 }
 
 #hp-character-total {
-   position: relative;
+    position: relative;
     font-size: 80px;
     height: 180px;
     vertical-align: top;
@@ -67,3 +67,43 @@ body {
 .dc-chart .pie-slice {
     font-size: 15px;
 }
+
+.buttonStyle button {
+    padding: 0.75em 2em;
+  text-align: center;
+  text-decoration: none;
+  color: #2194e0;
+  border: 2px solid #2194e0;
+  font-size: 24px;
+  display: inline-block;
+  border-radius: 0.3em;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.buttonStyle button:before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 3em;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -4.5em;
+  transform: skewX(-45deg) translateX(0);
+  transition: none;
+}
+
+.buttonStyle button:hover {
+    background-color: #2194e0;
+  color: #fff;
+  border-bottom: 4px solid #1977b5;
+}
+
+.buttonStyle button:hover:before {
+  transform: skewX(-45deg) translateX(13.5em);
+  transition: all 0.5s ease-in-out;
+}
+

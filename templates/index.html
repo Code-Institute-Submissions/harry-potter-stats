@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css') }}">
     <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css') }}">
     <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/introjs.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/introjs-nassim.css') }}"/>
+
 </head>
 <body class="application">
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -18,14 +20,16 @@
         </div>
     </div>
 </div>
-<!-- Outer start -->
+
 <div id="outer" class="container-fluid">
     <div class="row">
-        <!-- First Block -->
+        <!-- Total Character Block -->
         <div class="col-md-12">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <div class="chart-wrapper">
+                <div class="chart-wrapper" data-step="1"
+                     data-intro="Welcome to the Harry Potter Statistics Dashboard! <br><br> Here you'll finally find out how many characters from the franchise fit the dimensions you can personally choose. This way you'll be able to determine how many Slytherine characters were men or even how many people died in the movie series total. <br><br> This counter will show you the total number of characters that fit your dimensions. As you click other charts on the dashboard, the counter will change and show you exactly how many characters fit exactly the criteria you selected."
+                     style="font-weight: normal" data-position="right">
                     <div class="chart-title" id="chart-title-css">
                         Total Characters
                     </div>
@@ -34,14 +38,24 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <!-- Dashboard Buttons -->
+            <div class="col-md-3 buttonStyle">
+                <button class="intro_button" type="button" autofocus onclick="javascript:introJs().start();">Start
+                    Tour!
+                </button>
+                <button class="reset_button" type="button" autofocus onclick="javascript:dc.filterAll();dc.redrawAll();">Reset Charts!
+                </button>
             </div>
+            <!-- Dashboard Buttons END-->
         </div>
+        <!-- Total Character Block END -->
     </div>
     <div class="row">
         <!-- Hogwarts House Block -->
         <div class="col-md-8">
-            <div class="chart-wrapper">
+            <div class="chart-wrapper" data-step="2"
+                 data-intro="Welcome to the Hogwarts House Pie Chart!<br><br>This pie chart shows the Hogwarts house statistics of the characters. Here you can see how many characters were in which house. The chart even adjusts as you set different dimensions!"
+                 style="font-weight: normal" data-position="right">
                 <div class="chart-title" id="chart-title-css">
                     In which Hogwarts House were they?
                 </div>
@@ -50,8 +64,12 @@
                 </div>
             </div>
         </div>
+        <!-- Hogwarts House Block END -->
+        <!-- Human Block -->
         <div class="col-md-4">
-            <div class="chart-wrapper">
+            <div class="chart-wrapper" data-step="3"
+                     data-intro="Welcome to the 'Is the character human' bar chart!<br><br>We all know that not all characters in Harry Potter are human, so now you can see how many characters were human and which weren't. It's pretty neat!"
+                     style="font-weight: normal" data-position="left">
                 <div class="chart-title" id="chart-title-css">
                     Is The Character Human?
                 </div>
@@ -60,13 +78,16 @@
                 </div>
             </div>
         </div>
+        <!-- Human Block END-->
     </div>
-    <!-- Hogwarts House Block End -->
 
-    <!-- Total Characters Block -->
+
     <div class="row">
+        <!-- Character Gender Block -->
         <div class="col-md-3">
-            <div class="chart-wrapper">
+            <div class="chart-wrapper" data-step="4"
+                     data-intro="Welcome to the Gender Pie Chart!<br><br>The chart itself is very self explanatory. Here you'll see which characters were male and which were female."
+                     style="font-weight: normal" data-position="right">
                 <div class="chart-title" id="chart-title-css">
                     Character gender
                 </div>
@@ -75,11 +96,13 @@
                 </div>
             </div>
         </div>
-        <!-- Total Character Block End -->
+        <!-- Character Gender Block END-->
 
-        <!-- Character Allegiance Block -->
+        <!-- Character Mortality Block -->
         <div class="col-md-3">
-            <div class="chart-wrapper">
+            <div class="chart-wrapper" data-step="5"
+                     data-intro="Sadly not all the characters in Harry Potter survive. This pie chart will show you which characters survived and which characters sadly didn't."
+                     style="font-weight: normal" data-position="right">
                 <div class="chart-title" id="chart-title-css">
                     Is the Character dead or alive?
                 </div>
@@ -88,9 +111,12 @@
                 </div>
             </div>
         </div>
-        <!-- Character Allegiance Block End -->
+        <!-- Character Mortality Block End -->
+        <!-- Character Allegiance Block -->
         <div class="col-md-3">
-            <div class="chart-wrapper">
+            <div class="chart-wrapper" data-step="6"
+                     data-intro="Welcome to the Allegiance Row Chart!<br><br>This quick chart will show you exactly how many followers each allegiance had. This way you can easily see how big the allegiance really was."
+                     style="font-weight: normal" data-position="right">
                 <div class="chart-title" id="chart-title-css">
                     Character Allegiance
                 </div>
@@ -99,11 +125,12 @@
                 </div>
             </div>
         </div>
-        <!-- First Block End -->
-
-        <!-- menu select -->
+        <!-- Character Allegiance Block End -->
+        <!-- Character Bloodline -->
         <div class="col-md-3">
-            <div class="chart-wrapper">
+            <div class="chart-wrapper" data-step="7"
+                     data-intro="Welcome to the Bloodline Row Chart!<br><br>This chart will show you exactly how many characters were Pure Blood, Half Blood or anything else. Not that it matters in the Wizarding world."
+                     style="font-weight: normal" data-position="right">
                 <div class="chart-title" id="chart-title-css">
                     Character Bloodline
                 </div>
@@ -112,10 +139,9 @@
                 </div>
             </div>
         </div>
+        <!-- Character Bloodline END-->
     </div>
-    <!-- menu select -->
 </div>
-<!-- Outer End -->
 <hr>
 <p class="small text-muted"> Data Dashboard made by Heinrich Hohbach for Stream 2</p>
 <script src="{{ url_for ('static', filename='lib/js/jquery.min.js') }}"></script>
