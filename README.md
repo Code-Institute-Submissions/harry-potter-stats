@@ -1,8 +1,8 @@
-#Harry Potter Statistics Project - Code Academy Stream 2
+# Harry Potter Statistics Project - Code Academy Stream 2
 
 You can view the project here: 
 
-###Purpose and need of project
+### Purpose and need of project
 
 The project itself shows a variety of statistics related to the very popular book series 'Harry Potter'.
 The purpose of the project is to show the user how many characters mentioned throughout the series meet 
@@ -11,7 +11,7 @@ part of the 'Slytherin' House and were female. The application itself has a coun
 displays the total amount of people that meet the specified criteria and the charts adjust as the user clicks
 on them to portrait more data about the group of people shown by the number in the counter.
 
-###Database Information
+### Database Information
 
 The database consists of information I collected off the following source:
 *https://en.wikipedia.org/wiki/List_of_Harry_Potter_characters
@@ -20,7 +20,7 @@ The database consists of information I collected off the following source:
 The database is run through the Heroku application add on called mLab. The database was formatted in a csv file and
 imported into a MongoDB database. 
 
-###Technologies Used
+### Technologies Used
 Technology Name | Description
 ------------ | -------------
 [Flask](http://flask.pocoo.org/) | Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
