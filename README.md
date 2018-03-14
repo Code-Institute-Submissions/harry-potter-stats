@@ -14,8 +14,8 @@ on them to portrait more data about the group of people shown by the number in t
 ### Database Information
 
 The database consists of information I collected off the following source:
-*https://en.wikipedia.org/wiki/List_of_Harry_Potter_characters
-*http://harrypotter.wikia.com/wiki/Main_Page
+* https://en.wikipedia.org/wiki/List_of_Harry_Potter_characters
+* http://harrypotter.wikia.com/wiki/Main_Page
 
 The database is run through the Heroku application add on called mLab. The database was formatted in a csv file and
 imported into a MongoDB database. 
