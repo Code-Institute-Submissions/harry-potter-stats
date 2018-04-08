@@ -1,0 +1,179 @@
+character_name,hogwarts_house,allegiance,dead_or_alive,gender,is_human,blood_status
+Hannah Abbott,Hufflepuff,Dumbledore's Army,alive,female,human,half-blood
+Ludo Bagman,none,Ministry of Magic,unknown,male,human,pure-blood
+Bathilda Bagshot,none,none,dead,female,human,unknown
+Katie Bell,Gryffindor,Dumbledore's Army,alive,female,human,pure-blood
+Cuthbert Binns,none,none,dead,male,ghost,unknown
+Phineas Nigellus Black,Slytherin,none,dead,male,human,pure-blood
+Sirius Black,Gryffindor,Order of the Phoenix,dead,male,creature,pure-blood
+Amelia Bones,Hufflepuff,Order of the Phoenix,dead,female,human,pure-blood
+Susan Bones,Hufflepuff,Dumbledore's Army,alive,female,human,half-blood
+Terry Boot,Ravenclaw,Dumbledore's Army,alive,male,human,pure-blood
+Lavender Brown,Gryffindor,Dumbledore's Army,alive,female,human,pure-blood
+Millicent Bulstrode,Slytherin,none,alive,female,human,half-blood
+Charity Burbage,none,none,dead,female,human,pure-blood
+Frank Bryce,none,none,dead,male,human,Muggle
+Alecto Carrow,none,Death Eaters,alive,female,human,pure-blood
+Amycus Carrow,none,Death Eaters,alive,male,human,pure-blood
+Reginald Cattermole,none,Ministry of Magic,alive,male,human,pure-blood
+Cho Chang,Ravenclaw,Dumbledore's Army,alive,female,human,pure-blood
+Penelope Clearwater,Ravenclaw,none,alive,female,human,half-blood
+Michael Corner,Ravenclaw,Dumbledore's Army,alive,male,human,half-blood
+Vincent Crabbe,Slytherin,Death Eaters,dead,male,human,pure-blood
+Colin Creevey,Gryffindor,Dumbledore's Army,dead,male,human,half-blood
+Dennis Creevey,Gryffindor,Dumbledore's Army,alive,male,human,half-blood
+Dirk Cresswell,none,Ministry of Magic,dead,male,human,half-blood
+Barty Crouch Sr.,none,Ministry of Magic,dead,male,human,pure-blood
+Barty Crouch Jr.,none,Death Eaters,dead,male,human,pure-blood
+John Dawlish,none,Ministry of Magic,alive,male,human,pure-blood
+Fleur Delacour,none,Order of the Phoenix,alive,female,half human,half-blood
+Gabrielle Delacour,none,none,alive,female,half human,half-blood
+Dedalus Diggle,none,Order of the Phoenix,unknown,male,human,half-blood
+Amos Diggory,none,Ministry of Magic,alive,male,human,half-blood
+Cedric Diggory,Hufflepuff,none,dead,male,human,pure-blood
+Elphias Doge,none,Order of the Phoenix,alive,male,human,pure-blood
+Antonin Dolohov,none,Death Eaters,unknown,male,human,pure-blood
+Aberforth Dumbledore,Gryffindor,Order of the Phoenix,unknown,male,human,half-blood
+Albus Dumbledore,none,Order of the Phoenix,dead,male,human,half-blood
+Dudley Dursley,none,none,alive,male,human,Muggle
+Marge Dursley,none,none,alive,female,human,Muggle
+Petunia Dursley,none,none,dead,female,human,Muggle
+Vernon Dursley,none,none,alive,male,human,Muggle
+Marrietta Edgecombe,Ravenclaw,Ministry of Magic,alive,female,human,half-blood
+Arabella Figg,none,Order of the Phoenix,alive,female,human,Squib
+Argus Filch,none,none,alive,male,human,Squib
+Justin Finch-Fletchley,Hufflepuff,Dumbledore's Army,alive,male,human,Muggle Born
+Seamus Finnigan,Gryffindor,Dumbledore's Army,alive,male,human,half-blood
+Marcus Flint,Slytherin,none,alive,male,human,pure-blood
+Mundungus Fletcher,none,none,alive,male,human,half-blood
+Filius Flitwick,Ravenclaw,none,alive,male,half human,half-blood
+Florean Fortescue,none,none,dead,male,human,pure-blood
+Cornelius Fudge,none,Ministry of Magic,alive,male,human,pure-blood
+Marvolo Gaunt,none,none,dead,male,human,pure-blood
+Morgif Gaunt,none,none,dead,male,human,pure-blood
+Anthony Goldstein,Ravenclaw,Dumbledore's Army,alive,male,human,half-blood
+Goyle Sr.,Slytherin,Death Eaters,unknown,male,human,pure-blood
+Gregory Goyle,Slytherin,Death Eaters,alive,male,human,pure-blood
+Hermione Granger,Gryffindor,Order of the Phoenix,alive,female,human,half-blood
+Fenrir Greyback,none,Death Eaters,alive,male,creature,pure-blood
+Gellert Grindelwald,none,none,dead,male,human,pure-blood
+Wilhelmina Grubbly-Plank,none,none,unknown,female,human,pure-blood
+Godric Gryffindor,Gryffindor,none,dead,male,human,pure-blood
+Rose Granger-Weasley,Gryffindor,none,alive,female,human,half-blood
+Rubeus Hagrid,Gryffindor,Order of the Phoenix,alive,male,half human,half-blood
+Rolanda Hooch,none,none,unknown,female,human,unknown
+Mafalda Hopkirk,none,Ministry of Magic,alive,female,human,pure-blood
+Helga Hufflepuff,Hufflepuff,none,dead,female,human,pure-blood
+Angelina Johnson,Gryffindor,Dumbledore's Army,alive,female,human,unknown
+Lee Jordan,Gryffindor,Dumbledore's Army,alive,male,human,pure-blood
+Bertha Jorkins,none,Ministry of Magic,dead,female,human,unknown
+Igor Karkaroff,none,none,dead,male,human,pure-blood
+Viktor Krum,none,none,alive,male,human,pure-blood
+Silvanus Kettleburn,Hufflepuff,none,dead,male,human,pure-blood
+Bellatrix Lestrange,Slytherin,Death Eaters,dead,female,human,pure-blood
+Rabastan Lestrange,Slytherin,Death Eaters,unknown,male,human,pure-blood
+Rodolphus Lestrange,Slytherin,Death Eaters,unknown,male,human,pure-blood
+Gilderoy Lockhard,Ravenclaw,none,alive,male,human,half-blood
+Alice Longbottom,Gryffindor,Order of the Phoenix,dead,female,human,pure-blood
+Augusta Longbottom,none,Order of the Phoenix,unknown,female,human,pure-blood
+Frank Longbottom,Gryffindor,Order of the Phoenix,dead,male,human,pure-blood
+Neville Longbottom,Gryffindor,Dumbledore's Army,alive,male,human,pure-blood
+Luna Lovegood,Ravenclaw,Dumbledore's Army,alive,female,human,pure-blood
+Xenophilius Lovegood,Ravenclaw,none,alive,male,human,pure-blood
+Remus Lupin,Gryffindor,Order of the Phoenix,dead,male,creature,half-blood
+Draco Malfoy,Slytherin,Death Eaters,alive,male,human,pure-blood
+Lucius Malfoy,Slytherin,Death Eaters,dead,male,human,pure-blood
+Narcissa Malfoy,Slytherin,Death Eaters,alive,female,human,pure-blood
+Scorpius Malfoy,Slytherin,none,alive,male,human,pure-blood
+Olympe Maxime,none,Order of the Phoenix,alive,female,half human,half-blood
+Ernie Macmillan,Hufflepuff,Dumbledore's Army,alive,male,human,pure-blood
+Minerva McGonagall,Gryffindor,Order of the Phoenix,alive,female,human,half-blood
+Alastor Moody,none,Order of the Phoenix,dead,male,human,pure-blood
+Theodore Nott,Slytherin,Death Eaters,alive,male,human,pure-blood
+Garrick Ollivander,Ravenclaw,none,unknown,male,human,half-blood
+Pansy Parkinson,Slytherin,none,unknown,female,human,pure-blood
+Padma Patil,Ravenclaw,Dumbledore's Army,alive,female,human,half-blood
+Parvati Patil,Gryffindor,Dumbledore's Army,alive,female,human,half-blood
+Peter Pettigrew,Gryffindor,Death Eaters,dead,male,creature,half-blood
+Antioch Peverell,none,none,dead,male,human,pure-blood
+Cadmus Peverell,none,none,dead,male,human,pure-blood
+Ignotus Peverell,none,none,dead,male,human,pure-blood
+Irma Prince,none,none,alive,female,human,unknown
+Sturgis Podmore,none,Order of the Phoenix,unknown,male,human,half-blood
+Poppy Pomfrey,none,none,alive,female,human,pure-blood
+Harry Potter,Gryffindor,Order of the Phoenix,alive,male,human,half-blood
+James Potter,Gryffindor,Order of the Phoenix,dead,male,human,pure-blood
+Lily Potter,Gryffindor,Order of the Phoenix,dead,female,human,Muggle Born
+Quirinus Quirrell,Ravenclaw,Death Eaters,dead,male,human,half-blood
+Helena Ravenclaw,Ravenclaw,none,dead,female,ghost,unknown
+Rowena Ravenclaw,Ravenclaw,none,dead,female,human,pure-blood
+Demelza Robins,Gryffindor,none,unknown,female,human,unknown
+Augustus Rookwood,none,Death Eaters,alive,male,human,pure-blood
+Thorfinn Rowle,none,Death Eaters,unknown,male,human,pure-blood
+Albert Runcorn,none,Ministry of Magic,alive,male,human,pure-blood
+Newt Scamander,Hufflepuff,none,alive,male,human,half-blood
+Rufus Scrimgeour,none,Ministry of Magic,dead,male,human,unknown
+Kingsley Shacklebolt,none,Order of the Phoenix,alive,male,human,pure-blood
+Aurora Sinistra,none,none,unknown,female,human,pure-blood
+Rita Skeeter,none,none,alive,female,human,pure-blood
+Horace Slughorn,Slytherin,Order of the Phoenix,alive,male,human,pure-blood
+Salazar Slytherin,Slytherin,none,dead,male,human,pure-blood
+Hepzibah Smith,Hufflepuff,none,dead,female,human,pure-blood
+Zacharias Smith,Hufflepuff,Dumbledore's Army,alive,male,human,pure-blood
+Severus Snape,Slytherin,Order of the Phoenix,dead,male,human,half-blood
+Alicia Spinnet,Gryffindor,Dumbledore's Army,alive,female,human,pure-blood
+Pomona Sprout,Hufflepuff,Order of the Phoenix,alive,female,human,half-blood
+Pius Thicknesse,none,Ministry of Magic,unknown,male,human,pure-blood
+Dean Thomas,Gryffindor,Dumbledore's Army,alive,male,human,half-blood
+Andromeda Tonks,Slytherin,none,unknown,female,human,pure-blood
+Nymphadora Tonks,Hufflepuff,Order of the Phoenix,dead,female,half human,half-blood
+Ted Tonks,none,Order of the Phoenix,dead,male,human,Muggle Born
+Travers,none,Death Eaters,unknown,male,human,pure-blood
+Sybill Trelawney,Ravenclaw,Order of the Phoenix,alive,female,human,half-blood
+Dolores Umbridge,Slytherin,Ministry of Magic,alive,female,human,half-blood
+Emmeline Vance,none,Order of the Phoenix,unknown,female,human,unknown
+Septima Vector,none,none,unknown,female,human,unknown
+Lord Voldemort,Slytherin,Death Eaters,dead,male,human,half-blood
+Myrtle Warren,Ravenclaw,none,dead,male,ghost,Muggle Born
+Arthur Weasley,Gryffindor,Order of the Phoenix,alive,male,human,pure-blood
+Bill Weasley,Gryffindor,Order of the Phoenix,alive,male,human,pure-blood
+Charlie Weasley,Gryffindor,Order of the Phoenix,alive,male,human,pure-blood
+Fred Weasley,Gryffindor,Order of the Phoenix,dead,male,human,pure-blood
+George Weasley,Gryffindor,Order of the Phoenix,alive,male,human,pure-blood
+Ginny Weasley,Gryffindor,Order of the Phoenix,alive,female,human,pure-blood
+Molly Weasley,Gryffindor,Order of the Phoenix,alive,female,human,pure-blood
+Percy Weasley,Gryffindor,Order of the Phoenix,alive,male,human,pure-blood
+Ron Weasley,Gryffindor,Order of the Phoenix,alive,male,human,pure-blood
+Oliver Wood,Gryffindor,none,alive,male,human,pure-blood
+Corban Yaxley,none,Death Eaters,unknown,male,human,pure-blood
+Blaise Zabini,Slytherin,none,alive,male,human,pure-blood
+Aragog,none,none,dead,male,creature,unknown
+Bane,none,none,alive,male,creature,unknown
+Beedle the Bard,none,none,dead,male,human,unknown
+The Bloody Baron,Slytherin,none,dead,male,ghost,unknown
+Bogrod,none,none,dead,male,creature,unknown
+Buckbeak,none,Order of the Phoenix,alive,male,creature,unknown
+Sir Cadogan,Gryffindor,none,dead,male,ghost,pure-blood
+Crookshanks,none,none,alive,male,creature,unknown
+Dobby,none,Order of the Phoenix,dead,male,creature,unknown
+Errol,none,none,alive,male,creature,unknown
+Fang,none,none,alive,male,creature,unknown
+The Fat Friar,Hufflepuff,none,dead,male,ghost,unknown
+The Fat Lady,Gryffindor,none,dead,female,ghost,unknown
+Fawkes,none,none,alive,male,creature,unknown
+Firenze,none,none,alive,male,creature,unknown
+Fluffy,none,none,unknown,male,creature,unknown
+Grawp,none,none,alive,male,creature,unknown
+Griphook,none,none,unknown,male,creature,unknown
+Hedwig,none,none,dead,female,creature,unknown
+Hokey,none,none,dead,female,creature,unknown
+Kreacher,none,none,dead,male,creature,unknown
+Magorian,none,none,alive,male,creature,unknown
+Great Aunt Muriel,none,none,alive,female,human,pure-blood
+Nagini,none,Death Eaters,dead,female,creature,unknown
+Nearly Headless Nick,Gryffindor,none,dead,male,ghost,unknown
+Norbert,none,none,alive,female,creature,unknown
+Peeves,none,none,dead,male,ghost,unknown
+Pigwidgeon,none,none,alive,male,creature,unknown
+Madame Rosmerta,none,none,unknown,female,human,unknown
+Ronan,none,none,alive,male,creature,unknown

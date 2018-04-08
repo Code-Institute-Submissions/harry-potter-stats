@@ -17,6 +17,8 @@ The database consists of information I collected off the following source:
 * https://en.wikipedia.org/wiki/List_of_Harry_Potter_characters
 * http://harrypotter.wikia.com/wiki/Main_Page
 
+The Database CSV file is included.
+
 The database is run through the Heroku application add on called mLab. The database was formatted in a csv file and
 imported into a MongoDB database. 
 
@@ -36,7 +38,15 @@ Technology Name | Description
 
 ### Project Detailed explanation
 
-TBA
+The graphs have an intro implemented through the use of 'introjs'. This detailed explanation will cover the 'behind the scenes' aspects of the project.
+The usage of crossfilter/dc/d3 allows the dashboard to have an interactive chart system rather than a static one. The application then uses bootstrap to
+create a visually appealing setup for the graphs.
+
+The testing of the dashboard was performed manually. I used Chrome Developer tools to see the dashboard through the eyes of a mobile user and desktop user.
+This allowed for me to ensure that all the aspects of the site are visible to mobile users. The testing was also performed on an iPhone 5 and a Huawei P9 lite.
+The usage of Chrome and the mobile devices gave me enough insight in what problems the dashboard had and enabled me to fix any problems that I came across. I also
+had some family/friends try the dashboard to have outside testing. The testers then informed me of mistakes with the dashboard through sending me screenshots or
+writing down the problems they had. I then spent time replicating the problem and adjusting my code to fix the problem.
 
 ### Deploying Application
 
