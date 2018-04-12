@@ -50,9 +50,14 @@ writing down the problems they had. I then spent time replicating the problem an
 
 ### Deploying Application
 
-The application is deployed using Heroku on their free plan. The application uses the Heroku add on called mLab for the database
-hosting.
+The application was deployed using "Heroku". Heroku is an easy to use deployment platform that easily integrates with github respositories.
 
+The application was deployed in this manner:
+1. The project was setup with Github to create a repository online.
+2. Then Heroku can be linked up with github.
+3. I set up Heroku with the option that Github changes were directly pushed to the app to allow for an instant preview of the updated application.
+4. I used mLab, a free MongoDB add-on, to run the database for the application. The integration is easy and with the usage of Flask it's very efficient.
+5. The dev version of the app includes a 'env' file that emulates a virtual machine. This is not needed with the Heroku application seeing as the "requirements" file handles the same function as the env.
 
 ### External Influences
 
