@@ -64,7 +64,7 @@ The application was deployed in this manner:
 5. The dev version of the app includes a 'env' file that emulates a virtual machine. This is not needed with the Heroku application seeing as the "requirements" file handles the same function as the env.
 
 
-### Technologies Used
+### Testing
 Function Tested | How it was tested
 ------------ | -------------
 Start Tour button | The start tour button launches the introjs javascript. The feature was tested using the Chrome developer tools. The Chrome developer tools let me see the button on different device screens and ensure that it works regardless of the device. Once it worked perfectly on chrome, I tested the website on an iPhone and Android device to ensure that it worked on Desktop and mobile devices.
