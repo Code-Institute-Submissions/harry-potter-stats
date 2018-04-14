@@ -1,8 +1,10 @@
+/*This Class changes the text colour of the row chart*/
 .dc-chart g.row text {
     fill: black;
     font-size: 12px;
 }
 
+/*@font-face selects the font that is used for the dashboard.*/
 @font-face {
     font-family: 'parry_hotterregular';
     src: url('parryhotter-webfont.woff2') format('woff2'),
@@ -11,6 +13,7 @@
     font-style: normal;
 }
 
+/*The navbar branding styles the way the logo looks. It uses the harry potter font.*/
 .navbar-brand {
     font-family: 'parry_hotterregular', Arial, sans-serif;
     font-weight: normal;
@@ -32,6 +35,7 @@
     background-size: cover;
 }
 
+/*The chart title css styling sets up the titles above each chart.*/
 #chart-title-css {
     font-family: 'parry_hotterregular', Arial, sans-serif;
     font-weight: normal;
@@ -41,6 +45,7 @@
     text-align: center;
 }
 
+/*This is the styling of the 'Counter' chart element that shows the total number of characters.*/
 #hp-character-total {
     position: relative;
     font-size: 80px;
@@ -68,6 +73,7 @@ body {
     font-size: 15px;
 }
 
+/*The button style elements below create the blue effect of the buttons and add the interactive aspects of the buttons*/
 .buttonStyle {
     text-align: center;
 }

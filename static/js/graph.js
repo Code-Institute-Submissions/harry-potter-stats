@@ -8,7 +8,7 @@ function makeGraphs(error, HarryPotterJson) {
         throw error;
     }
 
-    //Clean donorsUSProjects data
+    //Clean Character Statistics data
     var character_stats = HarryPotterJson;
 
 
@@ -50,7 +50,7 @@ function makeGraphs(error, HarryPotterJson) {
         return d["character_name"]
     });
 
-    //Charts
+    //defining the Chart names
     var HouseChart = dc.pieChart('#house-pie');
     var CharacterTotalChart = dc.numberDisplay('#hp-character-total');
     var isHumanChart = dc.barChart('#is-human-chart');
@@ -59,7 +59,9 @@ function makeGraphs(error, HarryPotterJson) {
     var deadAliveChart = dc.pieChart('#dead-alive-chart');
     var BloodLineChart = dc.rowChart('#blood-line-chart');
 
-    //Chart Styling
+    //Styling of the Charts
+
+    //This is the Styling of the Pie Chart that displays the Houses the characters were in.
     HouseChart
         .width(880)
         .height(400)
@@ -70,6 +72,7 @@ function makeGraphs(error, HarryPotterJson) {
         .group(numHouse)
         .minAngleForLabel(0);
 
+    // This is the styling for the Number element that displays the total number based on the Chart selections
     CharacterTotalChart
         .formatNumber(d3.format("d"))
         .valueAccessor(function (d) {
@@ -78,6 +81,7 @@ function makeGraphs(error, HarryPotterJson) {
         .group(total_characters)
         .formatNumber(d3.format(".3s"));
 
+    //This is the bar chart that shows if the character is human or not.
     isHumanChart
         .width(440)
         .height(400)
@@ -86,6 +90,7 @@ function makeGraphs(error, HarryPotterJson) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal);
 
+    // This is the Row Chart that shows the allegiance of each character.
     AllegianceChart
         .width(300)
         .height(210)
@@ -93,6 +98,7 @@ function makeGraphs(error, HarryPotterJson) {
         .group(numAllegiance)
         .xAxis().ticks(8);
 
+    // This is the pie chart that shows the genders of the characters in the database.
     GenderChart
         .width(300)
         .height(223)
@@ -102,6 +108,7 @@ function makeGraphs(error, HarryPotterJson) {
         .group(numGender)
         .minAngleForLabel(0);
 
+    //This is the Pie Chart that shows if the characters are dead or alive.
     deadAliveChart
         .width(300)
         .height(223)
@@ -111,6 +118,7 @@ function makeGraphs(error, HarryPotterJson) {
         .group(numDeadAlive)
         .minAngleForLabel(0);
 
+    // This is the Row Chart that shows the bloodline of each character.
     BloodLineChart
         .width(300)
         .height(210)
@@ -119,6 +127,6 @@ function makeGraphs(error, HarryPotterJson) {
         .xAxis().ticks(8);
 
 
-
+    // This renders all the graphs described above.
     dc.renderAll();
 }
